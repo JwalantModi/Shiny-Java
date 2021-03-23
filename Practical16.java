@@ -24,18 +24,6 @@ public class Practical16 {
 		num = n/gcd;
 		den = k/gcd;
 		System.out.println(num+" / "+den);
-//		System.out.println(Double.parseDouble(s));
-//		for(i=1;i<=n;i++) {
-//			for(j=1;j<=k;j++) {
-//				if((i/j) == Double.parseDouble(s)) {
-//					System.out.println((int)i+" / "+(int)j);
-//					break;
-//				}
-//			}
-//			if(j<=k) {
-//				break;
-//			}
-//		}
 	}
 	public static int point(int n) {
 		return (int) Math.pow(10, n);
